@@ -19,6 +19,7 @@ parameters:
 		- stubs/EncoderInterface.stub
 		- stubs/EventSubscriberInterface.stub
 		- stubs/ExtensionInterface.stub
+		- stubs/FileBag.stub
 		- stubs/FormBuilderInterface.stub
 		- stubs/FormInterface.stub
 		- stubs/FormTypeExtensionInterface.stub
@@ -32,6 +33,7 @@ parameters:
 		- stubs/Process.stub
 		- stubs/PropertyPathInterface.stub
 		- stubs/Session.stub
+		- stubs/UploadedFile.stub
 
 parametersSchema:
 	symfony: structure([

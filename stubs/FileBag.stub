@@ -1,0 +1,18 @@
+<?php
+
+namespace Symfony\Component\HttpFoundation;
+
+use Symfony\Component\HttpFoundation\File\UploadedFile;
+
+/**
+ * @implements \IteratorAggregate<string, UploadedFile|UploadedFile[]>
+ */
+class FileBag implements \IteratorAggregate
+{
+
+	/**
+	 * @phpstan-return \Traversable<string, UploadedFile|UploadedFile[]>
+	 */
+	public function getIterator() {}
+
+}
